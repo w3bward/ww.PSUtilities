@@ -16,7 +16,7 @@
 .OUTPUTS
     System.String
 #>
-function New-MMHttpQueryUri {
+function New-HttpQueryUri {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true, Position = 0)]
